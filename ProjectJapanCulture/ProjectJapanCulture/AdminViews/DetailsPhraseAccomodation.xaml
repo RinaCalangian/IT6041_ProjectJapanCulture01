@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProjectJapanCulture.AdminViews.DetailsPhraseAccomodation"
+             Title="Details">
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Margin="15" VerticalOptions="StartAndExpand">
+                <Label Text="Accomodation Phrase in English" />
+                <Entry Text="{Binding AccomodationEng}" />
+                <Label Text="Accomodation Phrase in Japan" />
+                <Entry Text="{Binding AccomodationJap}" />
+
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <Button 
+                        Text="Save" Style="{StaticResource button_1}" Clicked="OnSaveClicked" HeightRequest="45"/>
+                    <Button Grid.Column="1"
+                        Text="Delete" Style="{StaticResource button_1}" Clicked="OnDeleteClicked" HeightRequest="45"/>
+                </Grid>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+
+</ContentPage>

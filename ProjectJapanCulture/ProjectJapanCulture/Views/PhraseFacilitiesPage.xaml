@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProjectJapanCulture.Views.PhraseFacilitiesPage"
+             Title="Sakura Journey">
+    
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Name="Icon2" 
+            Icon="sakura01.png"
+                     Priority="0"
+                     Order="Primary">
+        </ToolbarItem>
+    </ContentPage.ToolbarItems>
+
+    <StackLayout Margin="0,10,0,0" >
+        <Label Text="Common Facility Phrases in Japan"
+               FontSize="17"
+               FontAttributes="Bold"
+               HorizontalOptions="Center" 
+               VerticalOptions="CenterAndExpand"/>
+        <ListView x:Name="listViewPhFacility" Margin="15" HasUnevenRows="False" SeparatorColor="Gray">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Margin="20,0,0,0" Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                            <Label Text="{Binding FacilityEng}" VerticalTextAlignment="Center" HorizontalOptions="Start" 
+                                   TextColor="Black" FontAttributes="Bold" FontSize="15"/>
+                            <Label Text=": " VerticalTextAlignment="Center" HorizontalOptions="Start" 
+                                   TextColor="Black" FontSize="15"/>
+                            <Label Text="{Binding FacilityJap}" VerticalTextAlignment="Center" HorizontalOptions="StartAndExpand" 
+                                   TextColor="Black" FontSize="15" />
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+
+</ContentPage>

@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="using:ProjectJapanCulture.Views"
+             xmlns:local1="clr-namespace:ProjectJapanCulture.Models"
+        
+             x:Class="ProjectJapanCulture.Views.MasterPage"
+             Padding="0"
+			 Icon="hamburgers.png"
+			 Title="Japan Culture">
+
+    <StackLayout>
+        <StackLayout Margin="0">
+            <Image Source="mountfuji01.jpg" 
+                   Style="{StaticResource imageOnNavBar}" />
+            <Label Text="The Guide to Your Journey"
+                   Style="{StaticResource headerLabel_1}" 
+                   HorizontalOptions="Center"/>
+        </StackLayout>
+
+        <StackLayout Margin="10,5" Padding="0,5" Spacing="10" VerticalOptions="StartAndExpand">
+            <ListView x:Name="listView" x:FieldModifier="public">
+                <ListView.ItemsSource>
+                    <x:Array Type="{x:Type local1:MasterPageItem}">
+                        <local1:MasterPageItem Title="Home" IconSource="home01.png" TargetType="{x:Type local:HomePage}" />
+                        <local1:MasterPageItem Title="Activities" IconSource="activities01.png" TargetType="{x:Type local:ActivitiesPage}" />
+                        <local1:MasterPageItem Title="Common Phrases" IconSource="phrases01.png" TargetType="{x:Type local:PhrasesPage}" />
+                        <local1:MasterPageItem Title="Locations" IconSource="location01.png" TargetType="{x:Type local:LocationsPage}" />
+                       
+                        <!--code to implement if admin needs to login-->
+                        <local1:MasterPageItem Title="Administrator" IconSource="person01.png" TargetType="{x:Type local:LoginAdminPage}" />
+
+                        <!--code to implement to bypass admin login-->
+                        <!--<local1:MasterPageItem Title="Administrator" IconSource="person01.png" TargetType="{x:Type local:AdministratorPage}" />-->
+                    </x:Array>
+                </ListView.ItemsSource>
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid Padding="5">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="30"/>
+                                    <ColumnDefinition Width="*" />
+                                </Grid.ColumnDefinitions>
+                                <Image Source="{Binding IconSource}" 
+                                       WidthRequest="120"
+                                       HeightRequest="120"
+                                       VerticalOptions="Start"/>
+                                <Label Grid.Column="1" Text="{Binding Title}" 
+                                       Style="{StaticResource contentLabel_1}" />
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

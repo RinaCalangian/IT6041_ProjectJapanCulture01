@@ -1,0 +1,17 @@
+C:\Users\rinac\source\project\ProjectJapanCulture\ProjectJapanCulture\ProjectJapanCulture\bin\x64\Debug\netstandard2.0\ProjectJapanCulture.deps.json
+C:\Users\rinac\source\project\ProjectJapanCulture\ProjectJapanCulture\ProjectJapanCulture\bin\x64\Debug\netstandard2.0\ProjectJapanCulture.dll
+C:\Users\rinac\source\project\ProjectJapanCulture\ProjectJapanCulture\ProjectJapanCulture\bin\x64\Debug\netstandard2.0\ProjectJapanCulture.pdb
+C:\Users\rinac\source\project\ProjectJapanCulture\ProjectJapanCulture\ProjectJapanCulture\obj\x64\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\rinac\source\project\ProjectJapanCulture\ProjectJapanCulture\ProjectJapanCulture\obj\x64\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\rinac\source\project\ProjectJapanCulture\ProjectJapanCulture\ProjectJapanCulture\obj\x64\Debug\netstandard2.0\Views\ActivitiesPage.xaml.g.cs
+C:\Users\rinac\source\project\ProjectJapanCulture\ProjectJapanCulture\ProjectJapanCulture\obj\x64\Debug\netstandard2.0\Views\AddActivityPage.xaml.g.cs
+C:\Users\rinac\source\project\ProjectJapanCulture\ProjectJapanCulture\ProjectJapanCulture\obj\x64\Debug\netstandard2.0\Views\HomePage.xaml.g.cs
+C:\Users\rinac\source\project\ProjectJapanCulture\ProjectJapanCulture\ProjectJapanCulture\obj\x64\Debug\netstandard2.0\Views\LocationsPage.xaml.g.cs
+C:\Users\rinac\source\project\ProjectJapanCulture\ProjectJapanCulture\ProjectJapanCulture\obj\x64\Debug\netstandard2.0\Views\MasterPage.xaml.g.cs
+C:\Users\rinac\source\project\ProjectJapanCulture\ProjectJapanCulture\ProjectJapanCulture\obj\x64\Debug\netstandard2.0\Views\PhrasesPage.xaml.g.cs
+C:\Users\rinac\source\project\ProjectJapanCulture\ProjectJapanCulture\ProjectJapanCulture\obj\x64\Debug\netstandard2.0\ProjectJapanCulture.csproj.CoreCompileInputs.cache
+C:\Users\rinac\source\project\ProjectJapanCulture\ProjectJapanCulture\ProjectJapanCulture\obj\x64\Debug\netstandard2.0\ProjectJapanCulture.AssemblyInfoInputs.cache
+C:\Users\rinac\source\project\ProjectJapanCulture\ProjectJapanCulture\ProjectJapanCulture\obj\x64\Debug\netstandard2.0\ProjectJapanCulture.AssemblyInfo.cs
+C:\Users\rinac\source\project\ProjectJapanCulture\ProjectJapanCulture\ProjectJapanCulture\obj\x64\Debug\netstandard2.0\XamlC.stamp
+C:\Users\rinac\source\project\ProjectJapanCulture\ProjectJapanCulture\ProjectJapanCulture\obj\x64\Debug\netstandard2.0\ProjectJapanCulture.dll
+C:\Users\rinac\source\project\ProjectJapanCulture\ProjectJapanCulture\ProjectJapanCulture\obj\x64\Debug\netstandard2.0\ProjectJapanCulture.pdb

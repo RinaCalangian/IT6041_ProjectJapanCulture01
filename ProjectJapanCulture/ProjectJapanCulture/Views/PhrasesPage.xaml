@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProjectJapanCulture.Views.PhrasesPage"
+             Title="Sakura Journey"
+             Padding="10, 20">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Name="Icon2" 
+            Icon="sakura01.png"
+                     Priority="0"
+                     Order="Primary">
+        </ToolbarItem>
+    </ContentPage.ToolbarItems>
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Margin="10" Padding="0,5" Spacing="12" VerticalOptions="StartAndExpand">
+                <StackLayout HorizontalOptions="CenterAndExpand">
+                    <Label Text="Know Useful Common Phrases to Use When in Japan"
+                       FontSize="20"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"
+                        
+                       VerticalOptions="CenterAndExpand"/>
+                </StackLayout>
+                <StackLayout Margin="10" Padding="0,5" Spacing="12" VerticalOptions="StartAndExpand">
+                    <Button Text="Phrases-Accomodation" Style="{StaticResource button_1}" Clicked="AccomodationButton_Clicked"/>
+                    <Button Text="Phrases-Expression" Style="{StaticResource button_1}" Clicked="ExpressionButton_Clicked"/>
+                    <Button Text="Phrases-Facility" Style="{StaticResource button_1}" Clicked="FacilitiesButton_Clicked"/>
+                    <Button Text="Phrases-Food" Style="{StaticResource button_1}" Clicked="FoodButton_Clicked"/>
+                    <Button Text="Phrases-General" Style="{StaticResource button_1}" Clicked="GeneralButton_Clicked"/>
+                    <Button Text="Phrases-Time" Style="{StaticResource button_1}" Clicked="TimeButton_Clicked"/>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+
+</ContentPage>

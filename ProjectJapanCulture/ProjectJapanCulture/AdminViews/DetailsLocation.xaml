@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:ProjectJapanCulture"
+             x:Class="ProjectJapanCulture.AdminViews.DetailsLocation"
+             Title="Details">
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Margin="15" VerticalOptions="StartAndExpand">
+                <Label Text="City Name" />
+                <Entry Text="{Binding CityName}" />
+
+                <Label Text="About the City" />
+                <Editor Text="{Binding About}"
+                        VerticalOptions="FillAndExpand"
+                        Margin="10"
+                        AutoSize="TextChanges"/>
+                
+                <Label Text="Things To Do" />
+                <Editor Text="{Binding ThingsToDo}"
+                        VerticalOptions="FillAndExpand"
+                        Margin="10"
+                        AutoSize="TextChanges"/>
+                
+                <Label Text="Accomodation" />
+                <Editor Text="{Binding Accomodation}"
+                        VerticalOptions="FillAndExpand"
+                        Margin="10"
+                        AutoSize="TextChanges"/>
+
+                <StackLayout>
+                    <Label Text="{Binding CityImage}"/>
+                    
+                    <local:AspectRatioContainer AspectRatio="0.7">
+                        <Image Source="{Binding CityImage}" 
+                               Style="{StaticResource imageOnDetail}" />
+                    </local:AspectRatioContainer>
+                    <Button Text="Select a picture" 
+                            Style="{StaticResource button_1}"
+                            Clicked="SelectImageButton_Clicked"/>
+                    <Image x:Name="selectedImage"/>
+                </StackLayout>
+
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <Button 
+                        Text="Save" Style="{StaticResource button_1}" Clicked="OnSaveClicked" HeightRequest="45"/>
+                    <Button Grid.Column="1"
+                        Text="Delete" Style="{StaticResource button_1}" Clicked="OnDeleteClicked" HeightRequest="45"/>
+                </Grid>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+
+</ContentPage>

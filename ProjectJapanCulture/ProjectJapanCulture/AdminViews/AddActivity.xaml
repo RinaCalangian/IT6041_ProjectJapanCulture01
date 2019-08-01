@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProjectJapanCulture.AdminViews.AddActivity"
+             Title="Add Details">
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Margin="15" VerticalOptions="StartAndExpand">
+                <Label Text="Activity" />
+                <Entry Text="{Binding ActivityName}" />
+
+                <Label Text="About the Activity" />
+                <Editor Text="{Binding AboutActivity}"
+                        VerticalOptions="FillAndExpand"
+                        Margin="10"
+                        AutoSize="TextChanges"/>
+                
+                <Label Text="Where To Find" />
+                <Editor Text="{Binding ActivityLocation}"
+                        VerticalOptions="FillAndExpand"
+                        Margin="10"
+                        AutoSize="TextChanges"/>
+
+                <StackLayout>
+                    <Label Text="{Binding ActivityImage}" />
+                    <Image Source="{Binding ActivityImage}" />
+                    <Button Text="Select a picture" 
+                            Style="{StaticResource button_1}"
+                            Clicked="SelectImageButton_Clicked"/>
+                    <Image x:Name="selectedImage"/>
+                </StackLayout>
+
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <Button 
+                        Text="Save" Style="{StaticResource button_1}" Clicked="OnSaveClicked" HeightRequest="45"/>
+                    <Button Grid.Column="1"
+                        Text="Cancel" Style="{StaticResource button_1}" Clicked="OnCancelClicked" HeightRequest="45"/>
+                </Grid>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+
+</ContentPage>

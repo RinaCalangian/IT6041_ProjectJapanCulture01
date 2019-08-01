@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProjectJapanCulture.Views.AdministratorPage"
+             Title="Administrator Page"
+             Padding="10, 20">
+
+    <ScrollView>
+        <StackLayout Margin="15,5" Padding="0,5" Spacing="12" VerticalOptions="StartAndExpand">
+            <Button Text="Activity" Style="{StaticResource button_1}" Clicked="ActivityButton_Clicked"/>
+            <Button Text="Location" Style="{StaticResource button_1}" Clicked="LocationButton_Clicked"/>
+            <Button Text="Phrases-Accomodation" Style="{StaticResource button_1}" Clicked="AccomodationButton_Clicked"/>
+            <Button Text="Phrases-Expression" Style="{StaticResource button_1}" Clicked="ExpressionButton_Clicked"/>
+            <Button Text="Phrases-Facilities" Style="{StaticResource button_1}" Clicked="FacilitiesButton_Clicked"/>
+            <Button Text="Phrases-Food" Style="{StaticResource button_1}" Clicked="FoodButton_Clicked"/>
+            <Button Text="Phrases-General" Style="{StaticResource button_1}" Clicked="GeneralButton_Clicked"/>
+            <Button Text="Phrases-Time" Style="{StaticResource button_1}" Clicked="TimeButton_Clicked"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

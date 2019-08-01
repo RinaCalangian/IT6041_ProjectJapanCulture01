@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProjectJapanCulture.Views.ActivitiesPage"
+             Title="Sakura Journey">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Name="Icon2" 
+            Icon="sakura01.png"
+                     Priority="0"
+                     Order="Primary">
+        </ToolbarItem>
+    </ContentPage.ToolbarItems>
+
+    <ContentPage.Resources>
+        <Style TargetType="Label">
+            <Setter Property="Margin" Value="0, 4" />
+        </Style>
+    </ContentPage.Resources>
+
+    <StackLayout Margin="0,10,0,0" >
+        <Label Text="Activities to Enjoy While in Japan"
+               FontSize="17"
+               FontAttributes="Bold"
+               HorizontalOptions="Center" />
+
+        <ListView x:Name="listViewActivities" Margin="15" HasUnevenRows="True" SeparatorColor="Gray" ItemSelected="OnListItemSelected">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid Padding="10">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="*" />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+
+                            <Image Grid.RowSpan="2"
+                                   Source="{Binding ActivityImage}"
+                                   Style="{StaticResource imageOnListView}" />
+                            <Label Grid.Column="1"
+                                   Text="{Binding ActivityName}"
+                                   Style="{StaticResource headerLabel_1}"/>
+                            <Label Grid.Row="1"
+                                   Grid.Column="1"
+                                   Text="{Binding AboutActivity}"
+                                   Style="{StaticResource contentLabel_1}"
+                                   VerticalOptions="StartAndExpand" 
+                                   HeightRequest="50" />
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>

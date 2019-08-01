@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:ProjectJapanCulture"
+             x:Class="ProjectJapanCulture.Views.HomePage"
+             Title="Sakura Journey">
+    
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Name="Icon2" 
+            Icon="sakura01.png"
+                     Priority="0"
+                     Order="Primary">
+        </ToolbarItem>
+    </ContentPage.ToolbarItems>
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Margin="20" Padding="0,5" Spacing="10" VerticalOptions="StartAndExpand">
+
+                <local:AspectRatioContainer AspectRatio="0.7">
+                    <Image Source="sakurahomepage01.png" 
+                               Style="{StaticResource imageOnDetail}" />
+                </local:AspectRatioContainer>
+
+                <!--<Image Source="sakurahomepage01.png" 
+                       Aspect="AspectFill"
+                       HeightRequest="200">
+                </Image>-->
+
+                <Label Text="Welcome to Sakura Journey"
+                       Style="{StaticResource headerLabel_2}" />
+                <!--VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="Start" />-->
+
+                <Label Text=
+                        "This app is dedicated to anyone who is planning to visit Japan and is looking to have easy access to information we have gathered from 6 major cities, as well as some exciting things to do ineach of those cities, some accomodation choices and of course what national events Japan has to offer."
+                           Style="{StaticResource contentLabel_1}" />
+                <Label Text=
+                        "While browsing, we also hope you get a glimpse into some of Japan's rich culture history."
+                           Style="{StaticResource contentLabel_1}" />
+                <Label Text=
+                        "The cities we selected are Hiroshima, Kyoto, Sendai, Tokyo, and Yokohama as we felt that these are probably the most popular and interesting choices."
+                           Style="{StaticResource contentLabel_1}" />
+                <Label Text=
+                        "We sincerely hope you enjoy everything this app has to offer as much as we enjoyed making it."
+                           Style="{StaticResource contentLabel_1}" />
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+
+</ContentPage>
