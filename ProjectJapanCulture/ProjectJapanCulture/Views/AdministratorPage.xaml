@@ -5,6 +5,10 @@
              Title="Administrator Page"
              Padding="10, 20">
 
+    <!--This is the page where the Administrator can see list of function buttons 
+    Each function button when clicked on opens up another page corresponding
+    to its intended information or process-->
+
     <ScrollView>
         <StackLayout Margin="15,5" Padding="0,5" Spacing="12" VerticalOptions="StartAndExpand">
             <Button Text="Activity" Style="{StaticResource button_1}" Clicked="ActivityButton_Clicked"/>

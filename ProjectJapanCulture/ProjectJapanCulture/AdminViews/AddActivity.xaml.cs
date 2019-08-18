@@ -18,6 +18,7 @@ namespace ProjectJapanCulture.AdminViews
             InitializeComponent();
         }
 
+        // action to initiate opening of photo gallery
         async void SelectImageButton_Clicked(object sender, EventArgs e)
         {
             // added using Plugin.Media
@@ -73,6 +74,7 @@ namespace ProjectJapanCulture.AdminViews
             url = blockBlob.Uri.OriginalString;
         }
 
+        // action to save new activity
         async void OnSaveClicked(object sender, EventArgs e)
         {
             var activityItem = (Models.Activities)BindingContext;
@@ -81,6 +83,7 @@ namespace ProjectJapanCulture.AdminViews
             await Navigation.PopAsync();
         }
 
+        // action to cancel addition of new activity
         async void OnCancelClicked(object sender, EventArgs e)
         {
             await Navigation.PopAsync();

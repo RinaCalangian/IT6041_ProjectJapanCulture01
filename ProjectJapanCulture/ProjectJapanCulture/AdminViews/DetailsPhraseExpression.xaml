@@ -4,6 +4,10 @@
              x:Class="ProjectJapanCulture.AdminViews.DetailsPhraseExpression"
              Title="Details">
 
+    <!--This is the page where the Administrator can see full detail of a selected colloquial expression 
+    Each phrase displays (ExpressionEng, ExpressionJap) from class PhrasesExpression.cs
+    Administrator can update text; or delete the phrase -->
+
     <ContentPage.Content>
         <ScrollView>
             <StackLayout Margin="15" VerticalOptions="StartAndExpand">

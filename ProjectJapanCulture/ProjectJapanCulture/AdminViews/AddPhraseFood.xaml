@@ -4,6 +4,9 @@
              x:Class="ProjectJapanCulture.AdminViews.AddPhraseFood"
              Title="Add Details">
 
+    <!--This is the page where the Administrator adds new food phrase to class PhrasesFood.cs
+    (FoodEng, FoodJap)-->
+
     <ContentPage.Content>
         <ScrollView>
             <StackLayout Margin="15" VerticalOptions="StartAndExpand">

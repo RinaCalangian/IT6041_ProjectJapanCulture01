@@ -4,6 +4,9 @@
              x:Class="ProjectJapanCulture.AdminViews.AddPhraseFacility"
              Title="Add Details">
 
+    <!--This is the page where the Administrator adds new facility phrase to class PhrasesFacilities.cs
+    (FacilityEng, FacilityJap)-->
+
     <ContentPage.Content>
         <ScrollView>
             <StackLayout Margin="15" VerticalOptions="StartAndExpand">

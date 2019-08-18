@@ -4,6 +4,9 @@
              x:Class="ProjectJapanCulture.Views.PhraseFoodPage"
              Title="Sakura Journey">
 
+    <!--This is the page where the User can see list view of food phrases 
+    Each phrase displays (FoodEng, FoodJap) from class PhrasesFood.cs -->
+
     <ContentPage.ToolbarItems>
         <ToolbarItem Name="Icon2" 
             Icon="sakura01.png"

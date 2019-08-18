@@ -18,6 +18,7 @@ namespace ProjectJapanCulture.Views
             listViewActivities.ItemsSource = await App.Database.GetItemsAsync8();
         }
 
+        // action to open ActivityDetailPage (which displays full detail of the selected activity)
         async void OnListItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
             if (e.SelectedItem != null)

@@ -156,7 +156,5 @@ C:\Users\rinac\source\project\ProjectJapanCulture\ProjectJapanCulture\ProjectJap
 C:\Users\rinac\source\project\ProjectJapanCulture\ProjectJapanCulture\ProjectJapanCulture.Android\obj\Debug\81\android\assets\Xamarin.Forms.Core.pdb
 C:\Users\rinac\source\project\ProjectJapanCulture\ProjectJapanCulture\ProjectJapanCulture.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.pdb
 C:\Users\rinac\source\project\ProjectJapanCulture\ProjectJapanCulture\ProjectJapanCulture.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.pdb
-C:\Users\rinac\source\project\ProjectJapanCulture\ProjectJapanCulture\ProjectJapanCulture\bin\Debug\netstandard2.0\ProjectJapanCulture.dll
-C:\Users\rinac\source\project\ProjectJapanCulture\ProjectJapanCulture\ProjectJapanCulture.Android\bin\Debug\ProjectJapanCulture.dll.mdb
 C:\Users\rinac\source\project\ProjectJapanCulture\ProjectJapanCulture\ProjectJapanCulture.Android\obj\Debug\81\linksrc\Microsoft.WindowsAzure.Storage.dll.mdb
 C:\Users\rinac\source\project\ProjectJapanCulture\ProjectJapanCulture\ProjectJapanCulture.Android\obj\Debug\81\linksrc\ProjectJapanCulture.dll.mdb

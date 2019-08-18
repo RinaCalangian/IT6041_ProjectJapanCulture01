@@ -3,6 +3,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ProjectJapanCulture.App">
    
+    <!--Marks the entry point of the application
+    This also contains the resources (style, color) that would be available across the pages of the application-->
+    
     <Application.Resources>
         <ResourceDictionary>
             <Thickness x:Key="PageMargin">20</Thickness>

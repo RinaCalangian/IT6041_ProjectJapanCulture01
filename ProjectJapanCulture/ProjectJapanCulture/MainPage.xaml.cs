@@ -2,6 +2,8 @@
 using System;
 using Xamarin.Forms;
 
+
+// Sets the MainPage of the app to be of type MasterDetailPage
 namespace ProjectJapanCulture
 {
     public partial class MainPage : MasterDetailPage
@@ -18,6 +20,8 @@ namespace ProjectJapanCulture
             }
         }
 
+        // It defines the object SelectedItem as of type MasterPageItem
+        // The action here retrieves the SelectedItem from the ListView instance in MasterPage.xaml
         void OnItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
             var item = e.SelectedItem as MasterPageItem;

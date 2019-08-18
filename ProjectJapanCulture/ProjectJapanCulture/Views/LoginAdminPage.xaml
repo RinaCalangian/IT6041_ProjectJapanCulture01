@@ -4,6 +4,7 @@
              x:Class="ProjectJapanCulture.Views.LoginAdminPage"
              Title="Login">
     
+    <!--Displays the entry fields for Administrator to login-->
     <ContentPage.Content>
         <ScrollView>
         <StackLayout Margin="20" Padding="0,5" Spacing="10" VerticalOptions="StartAndExpand">

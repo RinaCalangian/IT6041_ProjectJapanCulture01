@@ -4,6 +4,11 @@
              x:Class="ProjectJapanCulture.AdminViews.AdminLocations"
              Title="Administrator">
 
+    <!--This is the page where the Administrator can see list view of locations 
+    Each location displays (CityImage, CityName, and About) from class Locations.cs
+    Administrator can select a location to view or click on '+' button to initiate addition of new location-->
+
+
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="+" Clicked="OnItemAdded">
             <ToolbarItem.Icon>

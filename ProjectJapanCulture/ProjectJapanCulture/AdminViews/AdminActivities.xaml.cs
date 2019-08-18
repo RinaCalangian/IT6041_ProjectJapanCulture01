@@ -26,6 +26,7 @@ namespace ProjectJapanCulture.AdminViews
             listViewActivities.ItemsSource = await App.Database.GetItemsAsync8();
         }
 
+        // action to open AddActivity page
         async void OnItemAdded(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new AddActivity
@@ -34,6 +35,7 @@ namespace ProjectJapanCulture.AdminViews
             });
         }
 
+        // action to open DetailsActivity page
         async void OnListItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
             if (e.SelectedItem != null)

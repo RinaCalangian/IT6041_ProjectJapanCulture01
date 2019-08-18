@@ -4,6 +4,10 @@
              x:Class="ProjectJapanCulture.AdminViews.AdminPhrasesFacilities"
              Title="Administrator">
 
+    <!--This is the page where the Administrator can see list view of facility phrases 
+    Each phrase displays (FacilityEng, FacilityJap) from class PhrasesFacilities.cs
+    Administrator can select a facility phrase to view or click on '+' button to initiate addition of new phrase -->
+
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="+" Clicked="OnItemAdded">
             <ToolbarItem.Icon>

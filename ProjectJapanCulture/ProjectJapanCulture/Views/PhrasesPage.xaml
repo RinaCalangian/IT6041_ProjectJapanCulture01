@@ -5,6 +5,9 @@
              Title="Sakura Journey"
              Padding="10, 20">
 
+    <!--This is the page where the User can see list of function buttons pertaining to categorized Japanese phrases 
+    Each function button when clicked on opens up another page that displays the common phrases correspondingly-->
+
     <ContentPage.ToolbarItems>
         <ToolbarItem Name="Icon2" 
             Icon="sakura01.png"

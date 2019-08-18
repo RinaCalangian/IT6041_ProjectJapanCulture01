@@ -4,6 +4,10 @@
              x:Class="ProjectJapanCulture.AdminViews.AdminPhrasesTime"
              Title="Administrator">
 
+    <!--This is the page where the Administrator can see list view of time phrases 
+    Each phrase displays (TimeEng, TimeJap) from class PhrasesTime.cs
+    Administrator can select a time phrase to view or click on '+' button to initiate addition of new phrase -->
+
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="+" Clicked="OnItemAdded">
             <ToolbarItem.Icon>

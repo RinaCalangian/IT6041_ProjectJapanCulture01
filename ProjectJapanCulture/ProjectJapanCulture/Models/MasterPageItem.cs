@@ -1,7 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
+// Defines the fields needed for the MasterPage
 namespace ProjectJapanCulture.Models
 {
     public class MasterPageItem

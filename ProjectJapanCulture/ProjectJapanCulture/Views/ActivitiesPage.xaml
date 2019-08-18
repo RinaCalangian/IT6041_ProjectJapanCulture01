@@ -4,6 +4,10 @@
              x:Class="ProjectJapanCulture.Views.ActivitiesPage"
              Title="Sakura Journey">
 
+    <!--This is the page where the user can see list view of activities 
+    Each activity displays (ActivityImage, ActivityName, and AboutActivity) from class Activities.cs
+    User can select an activity to view its full details-->
+
     <ContentPage.ToolbarItems>
         <ToolbarItem Name="Icon2" 
             Icon="sakura01.png"

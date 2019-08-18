@@ -22,7 +22,7 @@ namespace ProjectJapanCulture.AdminViews
             listViewPhTime.ItemsSource = await App.Database.GetItemsAsync6();
         }
 
-
+        // action to open class AddPhraseTime page
         async void OnItemAdded(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new AddPhraseTime
@@ -31,6 +31,7 @@ namespace ProjectJapanCulture.AdminViews
             });
         }
 
+        // action to open DetailsPhraseTime page
         async void OnListItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
             if (e.SelectedItem != null)

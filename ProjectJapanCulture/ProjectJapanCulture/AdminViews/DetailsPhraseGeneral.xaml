@@ -4,6 +4,10 @@
              x:Class="ProjectJapanCulture.AdminViews.DetailsPhraseGeneral"
              Title="Details">
 
+    <!--This is the page where the Administrator can see full detail of a selected general phrase 
+    Each phrase displays (GeneralEng, GeneralJap) from class PhrasesGeneral.cs
+    Administrator can update text; or delete the phrase -->
+
     <ContentPage.Content>
         <ScrollView>
             <StackLayout Margin="15" VerticalOptions="StartAndExpand">

@@ -13,6 +13,7 @@ namespace ProjectJapanCulture.AdminViews
 			InitializeComponent ();
 		}
 
+        // action to save new facility phrase
         async void OnSaveClicked(object sender, EventArgs e)
         {
             var facilityItem = (Models.PhrasesFacilities)BindingContext;
@@ -20,6 +21,7 @@ namespace ProjectJapanCulture.AdminViews
             await Navigation.PopAsync();
         }
 
+        // action to cancel addition of new facility phrase
         async void OnCancelClicked(object sender, EventArgs e)
         {
             await Navigation.PopAsync();

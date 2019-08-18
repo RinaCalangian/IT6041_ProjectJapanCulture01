@@ -1,5 +1,6 @@
 ﻿using SQLite;
 
+// Defines the fields needed for a facility phrase
 namespace ProjectJapanCulture.Models
 {
     public class PhrasesFacilities

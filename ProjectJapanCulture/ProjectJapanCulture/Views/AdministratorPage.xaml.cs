@@ -24,10 +24,14 @@ namespace ProjectJapanCulture.Views
 
         public ICommand NavigateCommand { private set; get; }
 
+
+        // each button when clicked on opens up the page the Administrator intends to see
+
         async void ActivityButton_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new AdminActivities());
         }
+
         async void LocationButton_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new AdminLocations());

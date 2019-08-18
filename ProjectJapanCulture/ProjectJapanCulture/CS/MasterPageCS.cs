@@ -2,6 +2,10 @@
 using System.Collections.Generic;
 using Xamarin.Forms;
 
+
+// This is the page that gets/sets from/to model class MasterPageItem.cs the data 
+// to be displayed in the menu of the Navigation Drawer (MasterPage.xaml)
+
 namespace ProjectJapanCulture.CS
 {
     public class MasterPageCS : ContentPage
@@ -13,31 +17,6 @@ namespace ProjectJapanCulture.CS
         public MasterPageCS()
         {
             var masterPageItems = new List<MasterPageItem>();
-
-            //masterPageItems.Add(new MasterPageItem
-            //{
-            //    Title = "Home",
-            //    IconSource = "home.png",
-            //    TargetType = typeof(HomePageCS)
-            //});
-            //masterPageItems.Add(new MasterPageItem
-            //{
-            //    Title = "Activities",
-            //    IconSource = "todo.png",
-            //    TargetType = typeof(ActivitiesPageCS)
-            //});
-            //masterPageItems.Add(new MasterPageItem
-            //{
-            //    Title = "Common Phrases",
-            //    IconSource = "reminders.png",
-            //    TargetType = typeof(PhrasesPageCS)
-            //});
-            //masterPageItems.Add(new MasterPageItem
-            //{
-            //    Title = "Locations",
-            //    IconSource = "contacts.png",
-            //    TargetType = typeof(LocationsPageCS)
-            //});
 
             listView = new ListView
             {
@@ -61,9 +40,8 @@ namespace ProjectJapanCulture.CS
                 SeparatorVisibility = SeparatorVisibility.None
             };
 
-            //IconImageSource = "reminders.png";
-            //IconImageSource = "hamburger.png";
-            Title = "Personal Organiser";
+            
+            //Title = "Personal Organiser";
             Padding = new Thickness(0, 40, 0, 0);
             Content = new StackLayout
             {

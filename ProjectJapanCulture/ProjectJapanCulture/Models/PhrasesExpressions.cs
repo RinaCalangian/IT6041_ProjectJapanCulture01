@@ -1,5 +1,6 @@
 ﻿using SQLite;
 
+// Defines the fields needed for a colloquial expression
 namespace ProjectJapanCulture.Models
 {
     public class PhrasesExpressions

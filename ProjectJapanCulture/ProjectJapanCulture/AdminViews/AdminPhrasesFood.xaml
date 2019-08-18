@@ -4,6 +4,10 @@
              x:Class="ProjectJapanCulture.AdminViews.AdminPhrasesFood"
              Title="Administrator">
 
+    <!--This is the page where the Administrator can see list view of food phrases 
+    Each phrase displays (FoodEng, FoodJap) from class PhrasesFood.cs
+    Administrator can select a food phrase to view or click on '+' button to initiate addition of new phrase -->
+
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="+" Clicked="OnItemAdded">
             <ToolbarItem.Icon>

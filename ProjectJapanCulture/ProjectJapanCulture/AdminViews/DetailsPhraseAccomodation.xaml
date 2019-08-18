@@ -4,6 +4,10 @@
              x:Class="ProjectJapanCulture.AdminViews.DetailsPhraseAccomodation"
              Title="Details">
 
+    <!--This is the page where the Administrator can see full detail of a selected accomodation phrase 
+    Each phrase displays (AccomodationEng, AccomodationJap) from class PhrasesAccomodation.cs
+    Administrator can update text; or delete the phrase -->
+
     <ContentPage.Content>
         <ScrollView>
             <StackLayout Margin="15" VerticalOptions="StartAndExpand">

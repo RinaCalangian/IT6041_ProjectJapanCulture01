@@ -13,6 +13,7 @@ namespace ProjectJapanCulture.AdminViews
 			InitializeComponent ();
 		}
 
+        // action to save the changes made
         async void OnSaveClicked(object sender, EventArgs e)
         {
             var foodItem = (Models.PhrasesFood)BindingContext;
@@ -20,6 +21,7 @@ namespace ProjectJapanCulture.AdminViews
             await Navigation.PopAsync();
         }
 
+        // action to delete the phrase
         async void OnDeleteClicked(object sender, EventArgs e)
         {
             var foodItem = (Models.PhrasesFood)BindingContext;

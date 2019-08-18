@@ -4,6 +4,10 @@
              x:Class="ProjectJapanCulture.AdminViews.DetailsPhraseFacility"
              Title="Details">
 
+    <!--This is the page where the Administrator can see full detail of a selected facility phrase 
+    Each phrase displays (FacilityEng, FacilityJap) from class PhrasesFacilities.cs
+    Administrator can update text; or delete the phrase -->
+
     <ContentPage.Content>
         <ScrollView>
             <StackLayout Margin="15" VerticalOptions="StartAndExpand">

@@ -1,5 +1,6 @@
 ﻿using SQLite;
 
+// Defines the fields needed for an accommodation phrase
 namespace ProjectJapanCulture.Models
 {
     public class PhrasesAccomodation

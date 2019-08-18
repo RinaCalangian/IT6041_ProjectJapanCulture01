@@ -22,7 +22,7 @@ namespace ProjectJapanCulture.AdminViews
             listViewPhFood.ItemsSource = await App.Database.GetItemsAsync4();
         }
 
-
+        // action to open class AddPhraseFood page
         async void OnItemAdded(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new AddPhraseFood
@@ -31,6 +31,8 @@ namespace ProjectJapanCulture.AdminViews
             });
         }
 
+
+        // action to open DetailsPhraseFood page
         async void OnListItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
             if (e.SelectedItem != null)

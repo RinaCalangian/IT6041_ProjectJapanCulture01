@@ -1,5 +1,6 @@
 ﻿using SQLite;
 
+// Defines the fields needed for a food phrase
 namespace ProjectJapanCulture.Models
 {
     public class PhrasesFood

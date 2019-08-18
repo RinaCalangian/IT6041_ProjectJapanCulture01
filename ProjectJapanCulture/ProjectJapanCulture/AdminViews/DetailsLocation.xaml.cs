@@ -18,6 +18,7 @@ namespace ProjectJapanCulture.AdminViews
 			InitializeComponent ();
 		}
 
+        // action to open Photo Gallery
         async void SelectImageButton_Clicked(object sender, EventArgs e)
         {
             // added using Plugin.Media
@@ -73,6 +74,7 @@ namespace ProjectJapanCulture.AdminViews
             url = blockBlob.Uri.OriginalString;
         }
 
+        // action to save the changes made
         async void OnSaveClicked(object sender, EventArgs e)
         {
             var locationItem = (Models.Locations)BindingContext;
@@ -88,6 +90,7 @@ namespace ProjectJapanCulture.AdminViews
             await Navigation.PopAsync();
         }
 
+        // action to delete the location
         async void OnDeleteClicked(object sender, EventArgs e)
         {
             var locationItem = (Models.Locations)BindingContext;

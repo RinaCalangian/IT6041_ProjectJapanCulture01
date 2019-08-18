@@ -3,7 +3,11 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ProjectJapanCulture.AdminViews.AdminPhrasesAccomodation"
              Title="Administrator">
-    
+
+    <!--This is the page where the Administrator can see list view of accommodation phrases 
+    Each phrase displays (AccomodationEng, AccomodationJap) from class PhrasesAccomodation.cs
+    Administrator can select an accommodation phrase to view or click on '+' button to initiate addition of new phrase -->
+
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="+" Clicked="OnItemAdded">
             <ToolbarItem.Icon>

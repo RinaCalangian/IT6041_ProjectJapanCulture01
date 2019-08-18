@@ -9,6 +9,9 @@
 			 Icon="hamburgers.png"
 			 Title="Japan Culture">
 
+    <!--This page is hidden by default (in small screens) and opens up when the burger menu icon
+    on the navigation bar in Home Page-->
+    
     <StackLayout>
         <StackLayout Margin="0">
             <Image Source="mountfuji01.jpg" 
@@ -17,6 +20,10 @@
                    Style="{StaticResource headerLabel_1}" 
                    HorizontalOptions="Center"/>
         </StackLayout>
+
+
+        <!--This is the code that displays the data (or items on list view or menu) in the Navigation Drawer
+        and gets/sets these data from/to model class MasterPageItem.cs-->
 
         <StackLayout Margin="10,5" Padding="0,5" Spacing="10" VerticalOptions="StartAndExpand">
             <ListView x:Name="listView" x:FieldModifier="public">

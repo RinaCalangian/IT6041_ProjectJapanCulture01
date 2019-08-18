@@ -4,6 +4,9 @@
              x:Class="ProjectJapanCulture.Views.PhraseGeneralPage"
              Title="Sakura Journey">
 
+    <!--This is the page where the User can see list view of general phrases 
+    Each phrase displays (GeneralEng, GeneralJap) from class PhrasesGeneral.cs -->
+
     <ContentPage.ToolbarItems>
         <ToolbarItem Name="Icon2" 
             Icon="sakura01.png"

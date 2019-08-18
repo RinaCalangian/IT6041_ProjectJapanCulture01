@@ -22,6 +22,10 @@ namespace ProjectJapanCulture.Views
 
         public ICommand NavigateCommand { private set; get; }
 
+
+        // each button when clicked on opens up the page that displays the 
+        // list of common phrases the User intends to see
+
         async void AccomodationButton_Clicked(object sender, System.EventArgs e)
         {
             await Navigation.PushAsync(new PhraseAccomodationPage());

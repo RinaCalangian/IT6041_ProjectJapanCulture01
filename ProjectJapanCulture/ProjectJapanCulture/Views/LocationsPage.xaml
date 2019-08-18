@@ -4,6 +4,10 @@
              x:Class="ProjectJapanCulture.Views.LocationsPage"
              Title="Sakura Journey">
 
+    <!--This is the page where the User can see list view of locations 
+    Each location displays (CityImage, CityName, and About) from class Locations.cs
+    User can select a location to view its full details-->
+
     <ContentPage.ToolbarItems>
         <ToolbarItem Name="Icon2" 
             Icon="sakura01.png"

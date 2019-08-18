@@ -4,6 +4,10 @@
              x:Class="ProjectJapanCulture.AdminViews.AdminActivities"
              Title="Administrator">
 
+    <!--This is the page where the Administrator can see list view of activities 
+    Each activity displays (ActivityImage, ActivityName, and AboutActivity) from class Activities.cs
+    Administrator can select an activity to view or click on '+' button to initiate addition of new activity-->
+
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="+" Clicked="OnItemAdded">
             <ToolbarItem.Icon>

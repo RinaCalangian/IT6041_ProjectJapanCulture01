@@ -1,8 +1,7 @@
 ﻿using SQLite;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
+
+// Defines the fields needed for a location
 namespace ProjectJapanCulture.Models
 {
     public class Locations

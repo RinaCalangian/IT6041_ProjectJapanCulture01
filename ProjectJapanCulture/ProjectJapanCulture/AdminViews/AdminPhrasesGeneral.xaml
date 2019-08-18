@@ -4,6 +4,10 @@
              x:Class="ProjectJapanCulture.AdminViews.AdminPhrasesGeneral"
              Title="Administrator">
 
+    <!--This is the page where the Administrator can see list view of general phrases 
+    Each phrase displays (GeneralEng, GeneralJap) from class PhrasesGeneral.cs
+    Administrator can select a general phrase to view or click on '+' button to initiate addition of new phrase -->
+
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="+" Clicked="OnItemAdded">
             <ToolbarItem.Icon>

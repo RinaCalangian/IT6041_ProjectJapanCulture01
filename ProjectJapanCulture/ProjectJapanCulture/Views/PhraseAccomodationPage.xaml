@@ -4,6 +4,9 @@
              x:Class="ProjectJapanCulture.Views.PhraseAccomodationPage"
              Title="Sakura Journey">
 
+    <!--This is the page where the User can see list view of accommodation phrases 
+    Each phrase displays (AccomodationEng, AccomodationJap) from class PhrasesAccomodation.cs-->
+
     <ContentPage.ToolbarItems>
         <ToolbarItem Name="Icon2" 
             Icon="sakura01.png"

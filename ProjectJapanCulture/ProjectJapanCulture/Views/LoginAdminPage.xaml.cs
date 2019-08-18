@@ -5,6 +5,8 @@ using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
+
+
 namespace ProjectJapanCulture.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
@@ -15,6 +17,8 @@ namespace ProjectJapanCulture.Views
 			InitializeComponent ();
 		}
 
+        // action to submit the entered text in the entry fields
+        // if login is successful, the app will open up the Administrator Page (AdministratorPage.xaml)
         async void OnLoginButtonClicked(object sender, EventArgs e)
         {
             var user = new User

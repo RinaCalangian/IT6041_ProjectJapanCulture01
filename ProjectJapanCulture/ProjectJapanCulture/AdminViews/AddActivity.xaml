@@ -4,6 +4,9 @@
              x:Class="ProjectJapanCulture.AdminViews.AddActivity"
              Title="Add Details">
 
+    <!--This is the page where the Administrator adds new activity to class Activities.cs
+    (ActivityName, AboutActivity, ActivityLocation, ActivityImage)-->
+    
     <ContentPage.Content>
         <ScrollView>
             <StackLayout Margin="15" VerticalOptions="StartAndExpand">

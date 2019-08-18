@@ -4,6 +4,9 @@
              x:Class="ProjectJapanCulture.Views.PhraseTimePage"
              Title="Sakura Journey">
 
+    <!--This is the page where the User can see list view of time phrases 
+    Each phrase displays (TimeEng, TimeJap) from class PhrasesTime.cs-->
+
     <ContentPage.ToolbarItems>
         <ToolbarItem Name="Icon2" 
             Icon="sakura01.png"

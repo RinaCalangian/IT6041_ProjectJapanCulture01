@@ -22,7 +22,7 @@ namespace ProjectJapanCulture.AdminViews
             listViewPhAccomodation.ItemsSource = await App.Database.GetItemsAsync();
         }
 
-        // to open class AddPhraseAccomodation upon selecting '+' icon
+        // action to open class AddPhraseAccomodation page
         async void OnItemAdded(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new AddPhraseAccomodation
@@ -31,6 +31,7 @@ namespace ProjectJapanCulture.AdminViews
             });
         }
 
+        // action to open DetailsPhraseAccomodation page
         async void OnListItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
             if (e.SelectedItem != null)

@@ -22,6 +22,7 @@ namespace ProjectJapanCulture.AdminViews
             listViewPhExpression.ItemsSource = await App.Database.GetItemsAsync2();
         }
 
+        // action to open class AddPhraseExpression page
         async void OnItemAdded(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new AddPhraseExpression
@@ -30,6 +31,7 @@ namespace ProjectJapanCulture.AdminViews
             });
         }
 
+        // action to open DetailsPhraseExpression page
         async void OnListItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
             if (e.SelectedItem != null)

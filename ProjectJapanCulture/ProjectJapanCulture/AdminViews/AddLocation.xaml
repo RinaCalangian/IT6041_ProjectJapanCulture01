@@ -4,6 +4,9 @@
              x:Class="ProjectJapanCulture.AdminViews.AddLocation"
              Title="Add Details">
 
+    <!--This is the page where the Administrator adds new location to class Locations.cs
+    (CityName, About, ThingsToDo, CityImage)-->
+
     <ContentPage.Content>
         <ScrollView>
             <StackLayout Margin="15" VerticalOptions="StartAndExpand">

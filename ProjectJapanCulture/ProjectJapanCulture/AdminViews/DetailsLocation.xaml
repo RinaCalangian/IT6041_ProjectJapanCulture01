@@ -5,6 +5,10 @@
              x:Class="ProjectJapanCulture.AdminViews.DetailsLocation"
              Title="Details">
 
+    <!--This is the page where the Administrator can see full detail of a selected location 
+    Each location displays (CityName, About, ThingsToDo, Accomodation, CityImage) from class Locations.cs
+    Administrator can update text or image; or delete the location -->
+
     <ContentPage.Content>
         <ScrollView>
             <StackLayout Margin="15" VerticalOptions="StartAndExpand">

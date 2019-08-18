@@ -5,6 +5,10 @@
              x:Class="ProjectJapanCulture.AdminViews.DetailsActivity"
              Title="Details">
 
+    <!--This is the page where the Administrator can see full detail of a selected activity 
+    Each activity displays (ActivityName, AboutActivity, ActivityLocation, ActivityImage) from class Activities.cs
+    Administrator can update text or image; or delete the activity -->
+
     <ContentPage.Content>
         <ScrollView>
             <StackLayout Margin="15" VerticalOptions="StartAndExpand">

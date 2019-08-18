@@ -20,6 +20,7 @@ namespace ProjectJapanCulture.Views
             listViewLocations.ItemsSource = await App.Database.GetItemsAsync7();
         }
 
+        // action to open LocationsDetailPage (which displays full detail of the selected location)
         async void OnListItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
             if (e.SelectedItem != null)

@@ -13,6 +13,7 @@ namespace ProjectJapanCulture.AdminViews
 			InitializeComponent ();
 		}
 
+        // action to save new colloquial expression
         async void OnSaveClicked(object sender, EventArgs e)
         {
             var expressionItem = (Models.PhrasesExpressions)BindingContext;
@@ -20,6 +21,7 @@ namespace ProjectJapanCulture.AdminViews
             await Navigation.PopAsync();
         }
 
+        // action to cancel addition of new colloquial expression
         async void OnCancelClicked(object sender, EventArgs e)
         {
             await Navigation.PopAsync();

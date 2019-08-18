@@ -3,7 +3,10 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ProjectJapanCulture.Views.PhraseFacilitiesPage"
              Title="Sakura Journey">
-    
+
+    <!--This is the page where the User can see list view of facility phrases 
+    Each phrase displays (FacilityEng, FacilityJap) from class PhrasesFacilities.cs-->
+
     <ContentPage.ToolbarItems>
         <ToolbarItem Name="Icon2" 
             Icon="sakura01.png"

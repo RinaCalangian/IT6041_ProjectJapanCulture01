@@ -5,6 +5,10 @@ using System.Threading.Tasks;
 using ProjectJapanCulture.Models;
 using SQLite;
 
+
+// Declares the constructor ProjectDatabase which takes the path for the database file as an argument
+// On this page, tables are created (for classes in Models folder)
+// The remainder of the ProjectDatabase class contains SQLite queries that run cross-platform
 namespace ProjectJapanCulture.Data
 {
     public class ProjectDatabase

@@ -17,6 +17,7 @@ namespace ProjectJapanCulture.AdminViews
 			InitializeComponent ();
 		}
 
+        // action to save new accommodation phrase
         async void OnSaveClicked(object sender, EventArgs e)
         {
             var accomodationItem = (Models.PhrasesAccomodation)BindingContext;
@@ -24,6 +25,7 @@ namespace ProjectJapanCulture.AdminViews
             await Navigation.PopAsync();
         }
 
+        // action to cancel addition of new accommodation phrase
         async void OnCancelClicked(object sender, EventArgs e)
         {
             await Navigation.PopAsync();

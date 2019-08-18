@@ -4,6 +4,9 @@
              x:Class="ProjectJapanCulture.AdminViews.AddPhraseGeneral"
              Title="Add Details">
 
+    <!--This is the page where the Administrator adds new general phrase to class PhrasesGeneral.cs
+    (GeneralEng, GeneralJap)-->
+
     <ContentPage.Content>
         <ScrollView>
             <StackLayout Margin="15" VerticalOptions="StartAndExpand">

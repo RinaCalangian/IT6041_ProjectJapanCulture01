@@ -1,5 +1,6 @@
 ﻿using SQLite;
 
+// Defines the fields needed for a time phrase
 namespace ProjectJapanCulture.Models
 {
     public class PhrasesTime

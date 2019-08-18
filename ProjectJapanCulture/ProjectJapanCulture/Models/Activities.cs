@@ -1,5 +1,7 @@
 ﻿using SQLite;
 
+
+// Defines the fields needed for an activity
 namespace ProjectJapanCulture.Models
 {
     public class Activities

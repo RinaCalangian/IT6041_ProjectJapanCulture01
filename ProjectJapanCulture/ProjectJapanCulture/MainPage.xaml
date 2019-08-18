@@ -4,6 +4,10 @@
              xmlns:local1="clr-namespace:ProjectJapanCulture.Views"
              x:Class="ProjectJapanCulture.MainPage">
 
+    <!--In here, MainPage is set as type of MasterDetailPage wherein the Navigation Bar is hidden by default for small screens-->
+    <!--HomePage is being displayed on this page and serves as the landing page of the application -->
+    <!--The object masterPage and the variable Master are declared in class MainPageCS.cs-->
+
     <MasterDetailPage.Master>
         <local1:MasterPage x:Name="masterPage" />
     </MasterDetailPage.Master>

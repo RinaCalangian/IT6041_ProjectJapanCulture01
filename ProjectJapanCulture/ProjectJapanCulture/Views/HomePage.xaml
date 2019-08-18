@@ -5,6 +5,9 @@
              x:Class="ProjectJapanCulture.Views.HomePage"
              Title="Sakura Journey">
     
+    <!--This page serves as the landing page of the application and is being called in MainPage.xaml
+    The page displays the icon, background image and something about the app/site-->
+    
     <ContentPage.ToolbarItems>
         <ToolbarItem Name="Icon2" 
             Icon="sakura01.png"
@@ -22,15 +25,8 @@
                                Style="{StaticResource imageOnDetail}" />
                 </local:AspectRatioContainer>
 
-                <!--<Image Source="sakurahomepage01.png" 
-                       Aspect="AspectFill"
-                       HeightRequest="200">
-                </Image>-->
-
                 <Label Text="Welcome to Sakura Journey"
                        Style="{StaticResource headerLabel_2}" />
-                <!--VerticalOptions="StartAndExpand" 
-                    HorizontalOptions="Start" />-->
 
                 <Label Text=
                         "This app is dedicated to anyone who is planning to visit Japan and is looking to have easy access to information we have gathered from 6 major cities, as well as some exciting things to do ineach of those cities, some accomodation choices and of course what national events Japan has to offer."

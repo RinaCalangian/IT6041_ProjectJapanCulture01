@@ -4,7 +4,10 @@
              xmlns:local="clr-namespace:ProjectJapanCulture"
              x:Class="ProjectJapanCulture.Views.LocationDetailPage"
              Title="Sakura Journey">
-    
+
+    <!--This is the page where the User can see full detail of a selected location 
+    Each location displays (CityImage, CityName, About, ThingsToDo, Accomodation) from class Locations.cs-->
+
     <ContentPage.ToolbarItems>
         <ToolbarItem Name="Icon2" 
             Icon="sakura01.png"

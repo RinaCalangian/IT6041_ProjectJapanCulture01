@@ -4,6 +4,10 @@ using Xamarin.Forms.Xaml;
 using ProjectJapanCulture.Data;
 using System.IO;
 
+// it contains a constructor that calls the InitializeComponent method 
+// and its main purpose is to initialize the elements declared in the XAML file
+// App.xaml.cs also contains methods to handle activation and suspension of the app
+
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace ProjectJapanCulture
 {

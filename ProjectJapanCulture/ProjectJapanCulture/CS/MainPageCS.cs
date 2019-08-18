@@ -3,6 +3,10 @@ using ProjectJapanCulture.Models;
 using System;
 using Xamarin.Forms;
 
+// MainPageCS is set to be of type MasterDetailPage
+// This is the page that declares the object masterPage to be of type MasterPageCS 
+// Object masterPage will be called or referenced in MainPage.xaml
+
 namespace ProjectJapanCulture
 {
     public class MainPageCS : MasterDetailPage
@@ -23,6 +27,7 @@ namespace ProjectJapanCulture
             }
         }
 
+        // the action that opens up a page of type NavigationPage corresponding to the item selected in the Navigation Bar menu
         void OnItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
             var item = e.SelectedItem as MasterPageItem;

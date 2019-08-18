@@ -22,6 +22,7 @@ namespace ProjectJapanCulture.AdminViews
             listViewPhFacility.ItemsSource = await App.Database.GetItemsAsync3();
         }
 
+        // action to open class AddPhraseFacility page
         async void OnItemAdded(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new AddPhraseFacility
@@ -30,6 +31,7 @@ namespace ProjectJapanCulture.AdminViews
             });
         }
 
+        // action to open DetailsPhraseFacility page
         async void OnListItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
             if (e.SelectedItem != null)
